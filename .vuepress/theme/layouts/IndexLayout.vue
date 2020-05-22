@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="index-title">开源项目</div>
+    
     <div class="projects">
       <div v-for="(item,index) in $themeConfig.projects" :key="index">
         <div v-if="index%2 === 0" class="container mx-auto project-item flex project-item-left">
