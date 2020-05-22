@@ -1,35 +1,18 @@
 <template>
   <div>
     <div class="index-title">开源项目</div>
-    
+
     <div class="projects">
       <div v-for="(item,index) in $themeConfig.projects" :key="index">
-        <div v-if="index%2 === 0" class="container mx-auto project-item flex project-item-left">
-          <div class="flex-1">
-            <div
-              class="img"
-              :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
-            ></div>
-          </div>
-          <div class="flex items-center flex-column h-full flex-1">
+        <div
+          class="project-item flex items-center justify-center"
+          :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+        >
+          <div>
             <a :href="item.url" target="_blank">
               <h2 class="text-center">{{item.title}}</h2>
             </a>
             <div class="summary">{{item.summary}}</div>
-          </div>
-        </div>
-        <div v-else class="container mx-auto project-item flex project-item-right">
-          <div class="flex items-center flex-column h-full flex-1">
-            <a :href="item.url" target="_blank">
-              <h2 class="text-center">{{item.title}}</h2>
-            </a>
-            <div class="summary">{{item.summary}}</div>
-          </div>
-          <div class="flex-1">
-            <div
-              class="img"
-              :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
-            ></div>
           </div>
         </div>
       </div>
@@ -109,12 +92,22 @@ export default {
 }
 
 .projects {
+  padding: 0 5rem;
+
   .project-item {
+    margin-bottom: 3rem;
     height: 20rem;
     width: 100%;
-    margin-bottom: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    border: 0 none;
+    transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
+    color: #ffffff;
 
     a {
+      color: #ffffff;
+
       &:hover {
         text-shadow: 0 0 0.1em, 0 0 0.3em;
       }
@@ -131,24 +124,16 @@ export default {
       overflow: hidden;
       text-overflow: ellipsis;
     }
-
-    .img {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
-      box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
-      z-index: 1;
-      border: 0 none;
-      transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
-    }
   }
-.project-item-left {
-      flex-direction: column;
-    }
 
-    .project-item-right {
-      flex-direction: column-reverse;
-    }
+  .project-item-left {
+    flex-direction: column;
+  }
+
+  .project-item-right {
+    flex-direction: column-reverse;
+  }
+
   @media (min-width: $mdMedia) {
     .project-item-left {
       flex-direction: row;
@@ -186,5 +171,4 @@ export default {
     }
   }
 }
-
 </style>

@@ -1,6 +1,9 @@
 <template>
-  <div class="container mx-auto">
-    
+  <div>
+    <div>
+        <a href="https://github.com/Ace520">github</a>
+    </div>
+    <Content/>
   </div>
 </template>
 <script>

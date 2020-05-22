@@ -74,7 +74,7 @@ export default {
 }
 
 .main-content {
-  margin-top: -6rem;
+  margin-top: -7rem;
   background: #ffffff;
   min-height: 50rem;
 }
