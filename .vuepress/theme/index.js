@@ -32,7 +32,7 @@ module.exports = {
       comment: {
         service: 'vssue',
         owner: 'Ace520',
-        repo: 'Ace Blog',
+        repo: 'blog',
         clientId: 'Iv1.535c99f0a882ed45',
         clientSecret: '6ec379adea91d41358679a159e6688a258dff8a9',
       },

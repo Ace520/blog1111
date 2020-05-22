@@ -4,15 +4,15 @@
         <a href="https://github.com/Ace520">github</a>
     </div>
     <Content/>
+    <Comment/>
   </div>
 </template>
-<script>
-import Vue from "vue";
+import { Comment } from "@vuepress/plugin-blog/lib/client/components";
 export default {
   components: {
+    Comment
   }
 };
-</script>
 <style lang="stylus" scoped>
 
 </style>
