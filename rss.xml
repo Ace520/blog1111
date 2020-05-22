@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/vuepress</link>
         <description>Ace blog</description>
-        <lastBuildDate>Fri, 22 May 2020 11:25:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2020 11:55:34 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/vuepress/feed.atom" rel="self" type="application/rss+xml"/>
@@ -30,33 +30,38 @@
             <description><![CDATA[Between these triple-dashed lines, you can set predefined variables (see below for a reference), or even create custom ones of your own. These variables will then be available to you to access using $frontmatter at the rest of the page, plus all custom and theming components.]]></description>
         </item>
         <item>
+            <title><![CDATA[Travis CI持续集成服务]]></title>
+            <link>https://ace520.github.io/vuepress/2019/06/18/travis-ci-tutorial/</link>
+            <guid>https://ace520.github.io/vuepress/2019/06/18/travis-ci-tutorial/</guid>
+            <pubDate>Tue, 18 Jun 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Markdown Slot 2]]></title>
             <link>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-2/</link>
             <guid>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-2/</guid>
             <pubDate>Tue, 26 Feb 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[You can define a named markdown slot through the following markdown syntax:]]></description>
+            <description><![CDATA[VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.]]></description>
         </item>
         <item>
             <title><![CDATA[Markdown Slot 3]]></title>
             <link>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-3/</link>
             <guid>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-3/</guid>
             <pubDate>Tue, 26 Feb 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[::: slot name]]></description>
+            <description><![CDATA[First, let's review the relationship between layout components and markdown files:]]></description>
         </item>
         <item>
             <title><![CDATA[Markdown Slot 4]]></title>
             <link>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-4/</link>
             <guid>https://ace520.github.io/vuepress/2019/02/26/markdown-slot-4/</guid>
             <pubDate>Tue, 26 Feb 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[:::
-`]]></description>
+            <description><![CDATA[Here's some contact info]]></description>
         </item>
         <item>
             <title><![CDATA[Markdown Slot 1]]></title>
             <link>https://ace520.github.io/vuepress/2019/02/26/markdown-slot/</link>
             <guid>https://ace520.github.io/vuepress/2019/02/26/markdown-slot/</guid>
             <pubDate>Tue, 26 Feb 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Use the Content component to use the slot in the layout component:]]></description>
+            <description><![CDATA[Markdown files are providers of metadata (Page content, Configuration, etc.), while layout components consume them. We can use frontmatter to define some metadata for common data types, but frontmatter is hard to do something about markdown / HTML, a complex metadata that involves differences before and after compilation.]]></description>
         </item>
         <item>
             <title><![CDATA[writing a vuepress theme 2]]></title>
