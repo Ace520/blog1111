@@ -27,7 +27,7 @@ module.exports = {
         },
       ],
       sitemap: {
-        hostname: 'https://ace520.github.io/vuepress'
+        hostname: 'https://ace520.github.io/blog'
       },
       comment: {
         service: 'vssue',
@@ -37,7 +37,7 @@ module.exports = {
         clientSecret: '6ec379adea91d41358679a159e6688a258dff8a9',
       },
       feed: {
-        canonical_base: 'https://ace520.github.io/vuepress'
+        canonical_base: 'https://ace520.github.io/blog'
       },
     }],
     ['@vuepress/back-to-top'],
