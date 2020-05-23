@@ -52,7 +52,7 @@ export default {
     };
   },
   created() {
-    this.todayPoetry();
+    // this.todayPoetry();
   },
   methods: {
     fetchToken() {
