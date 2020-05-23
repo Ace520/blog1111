@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Sat, 23 May 2020 16:54:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 17:02:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -15,7 +15,7 @@
             <pubDate>Tue, 18 Jun 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[页面调试工具栏 barryvdh/laravel-debugbar]]></title>
+            <title><![CDATA[【barryvdh/laravel-debugbar】页面调试工具栏]]></title>
             <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
