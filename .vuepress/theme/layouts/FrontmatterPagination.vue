@@ -28,17 +28,20 @@
   </div>
 </template>
 <script>
-import Vue from 'vue'
-import dayjs from 'dayjs'
+import Vue from "vue";
+import dayjs from "dayjs";
 import { Pagination } from "@vuepress/plugin-blog/lib/client/components";
+require("dayjs/locale/zh-cn");
 export default {
   components: {
     Pagination
   },
-  created() {},
+  created() {
+    dayjs.locale("zh-cn");
+  },
   methods: {
     resolvePostDate(date) {
-      return dayjs(date).format(YYYY-MM-DD);
+      return dayjs(date).format("YYYY-MM-DD");
     }
   }
 };

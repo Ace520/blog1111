@@ -28,13 +28,17 @@
 import Vue from "vue";
 import dayjs from "dayjs";
 import { Comment } from "@vuepress/plugin-blog/lib/client/components";
+require("dayjs/locale/zh-cn");
 export default {
   components: {
     Comment
   },
+  created() {
+    dayjs.locale("zh-cn");
+  },
   methods: {
     resolvePostDate(date) {
-      return dayjs(date).format(YYYY/MM/DD-dddd);
+      return dayjs(date).format("YYYY/MM/DD-dddd");
     }
   }
 };
