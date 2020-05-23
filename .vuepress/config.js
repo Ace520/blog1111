@@ -21,19 +21,19 @@ module.exports = {
       {
         title: 'CheatSheet',
         summary: '速查表',
-        img: 'project-cheatsheet.jpg',
+        img: '1.jpg',
         url: 'https://ace520.github.io/cheatsheet'
       },
       {
         title: 'laravel-admin-vue',
         summary: 'Laravel-admin使用vue前后端分离版',
-        img: 'project-admin.jpg',
+        img: '2.jpg',
         url: 'https://laravel-admin.org/'
       },
       {
         title: 'Marvel Universe',
         summary: '漫威宇宙：更易于调用的漫威API',
-        img: 'project-marvel.jpg',
+        img: '3.jpg',
         url: 'https://developer.marvel.com/'
       }
     ]

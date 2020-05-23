@@ -1,7 +1,10 @@
 <template>
   <div id="global-layout" class="flex flex-column">
     <div class="jumbotron">
-      <header class="header flex-none">
+      <header
+        class="header flex-none"
+        :style="{background: 'url(' + $themeConfig.staticUrl + $page.frontmatter.bg + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+      >
         <div class="container mx-auto h-full flex items-center justify-between">
           <router-link class="title" to="/">{{ $site.title }}</router-link>
           <div class="nav">
@@ -34,7 +37,7 @@ import GlobalLayout from "@app/components/GlobalLayout.vue";
 export default {
   components: { DefaultGlobalLayout: GlobalLayout },
   created() {
-    console.log(this);
+    console.log(this.$page);
   }
 };
 </script>
@@ -45,7 +48,7 @@ export default {
 
 .jumbotron {
   height: 20rem;
-  background: linear-gradient(180deg, #2c3e50, #bdc3c7);
+  // background: linear-gradient(180deg, #2c3e50, #bdc3c7);
 }
 
 .header {

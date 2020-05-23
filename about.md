@@ -1,5 +1,6 @@
 ---
 layout: AboutLayout
+bg: 1.jpg
 ---
 ## 前言
 

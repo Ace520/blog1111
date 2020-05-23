@@ -20,6 +20,7 @@
     </div>
   </div>
 </template>
+
 <style lang="stylus" scoped>
 .tag-item {
   margin: 10px;
