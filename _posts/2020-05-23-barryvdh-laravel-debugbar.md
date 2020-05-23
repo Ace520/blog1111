@@ -1,6 +1,6 @@
 ---
 title: 页面调试工具栏 
-bg: laravel.png
+bg: laravel.jpg
 date: 2020-05-22
 topic: Laravel 扩展包
 tags: 

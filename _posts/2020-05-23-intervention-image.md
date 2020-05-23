@@ -1,6 +1,6 @@
 ---
 title: 图片处理扩展包
-bg: laravel.png
+bg: laravel.jpg
 date: 2020-05-23
 topic: Laravel 扩展包
 tags: 
