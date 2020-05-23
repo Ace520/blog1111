@@ -58,14 +58,6 @@
             "date_modified": "2020-05-22T00:00:00.000Z"
         },
         {
-            "id": "https://ace520.github.io/blog/2020/05/22/iamkun-dayjs/",
-            "url": "https://ace520.github.io/blog/2020/05/22/iamkun-dayjs/",
-            "title": "iamkun/dayjs 一个轻量的处理时间和日期的 JavaScript 库",
-            "summary": "Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor]",
-            "image": "https://opencollective.com/dayjs/sponsor/0/avatar.svg",
-            "date_modified": "2020-05-22T00:00:00.000Z"
-        },
-        {
             "id": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
             "url": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
             "title": "intervention/image 图片处理扩展包",
@@ -109,6 +101,14 @@
             "summary": "\n",
             "image": "https://cloud.githubusercontent.com/assets/1801923/9915273/119b9350-5cae-11e5-850b-c941cac60b32.png",
             "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/24/iamkun-dayjs/",
+            "url": "https://ace520.github.io/blog/2020/05/24/iamkun-dayjs/",
+            "title": "iamkun/dayjs 一个轻量的处理时间和日期的 JavaScript 库",
+            "summary": "dayjs.locale('es') // use Spanish locale globally",
+            "image": "https://opencollective.com/dayjs/sponsor/0/avatar.svg",
+            "date_modified": "2020-05-24T00:00:00.000Z"
         }
     ]
 }
