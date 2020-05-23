@@ -16,7 +16,7 @@
         :to="'/topic/' + $frontmatter.topic"
       >{{$frontmatter.topic}}</router-link>
       <span v-if="$frontmatter.date" class="item span">/</span>
-      <div class="item date">{{$frontmatter.date}}</div>
+      <div class="item date">{{resolvePostDate($frontmatter.date)}}</div>
     </div>
     <div class="article">
       <Content />
