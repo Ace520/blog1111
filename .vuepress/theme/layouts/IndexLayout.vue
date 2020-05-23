@@ -1,18 +1,19 @@
 <template>
   <div>
-    <div class="index-title">开源项目</div>
-
-    <div class="projects">
-      <div v-for="(item,index) in $themeConfig.projects" :key="index">
-        <div
-          class="project-item flex items-center justify-center"
-          :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
-        >
-          <div>
-            <a :href="item.url" target="_blank">
-              <h2 class="text-center">{{item.title}}</h2>
-            </a>
-            <div class="summary">{{item.summary}}</div>
+    <div class="container-p">
+      <div class="index-title">开源项目</div>
+      <div class="projects">
+        <div v-for="(item,index) in $themeConfig.projects" :key="index">
+          <div
+            class="project-item flex items-center justify-center"
+            :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+          >
+            <div>
+              <a :href="item.url" target="_blank">
+                <h2 class="text-center">{{item.title}}</h2>
+              </a>
+              <div class="summary">{{item.summary}}</div>
+            </div>
           </div>
         </div>
       </div>
@@ -95,14 +96,11 @@ export default {
   padding: 0 5rem;
 
   .project-item {
-    margin-bottom: 3rem;
-    height: 20rem;
+    margin-bottom: 4rem;
+    height: 17rem;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
     z-index: 1;
     border: 0 none;
-    transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
     color: #ffffff;
 
     a {
@@ -123,6 +121,7 @@ export default {
       -webkit-line-clamp: 3;
       overflow: hidden;
       text-overflow: ellipsis;
+      text-align: center;
     }
   }
 

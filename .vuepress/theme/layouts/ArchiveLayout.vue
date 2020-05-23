@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-p">
     <h1>归档</h1>
     <div class="archives">
       <div v-for="(item,index) in items" :key="index" class="archives-item">

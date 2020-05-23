@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto posts">
+  <div class="posts container-p">
     <div class="flex">
       <div class="flex-1">
         <div class="mb-4" v-for="(item, index) in $pagination.pages" :key="index">

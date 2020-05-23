@@ -1,4 +1,4 @@
 ---
 layout: IndexLayout
-bg: 4.jpg
+bg: 1.jpg
 ---

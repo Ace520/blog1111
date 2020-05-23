@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div class="container-p">
     <h1>{{$frontmatter.title}}</h1>
     <router-link
       class="tag-item"

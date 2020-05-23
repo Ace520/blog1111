@@ -1,10 +1,10 @@
 <template>
   <div id="global-layout" class="flex flex-column">
-    <div class="jumbotron">
-      <header
-        class="header flex-none"
-        :style="{background: 'url(' + $themeConfig.staticUrl + $page.frontmatter.bg + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
-      >
+    <div
+      class="jumbotron"
+      :style="{background: 'url(' + $themeConfig.staticUrl + $page.frontmatter.bg + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+    >
+      <header class="header flex-none">
         <div class="container mx-auto h-full flex items-center justify-between">
           <router-link class="title" to="/">{{ $site.title }}</router-link>
           <div class="nav">
@@ -19,9 +19,7 @@
       </header>
     </div>
     <div class="flex-1 main-content container mx-auto">
-      <div class="container-p">
-        <DefaultGlobalLayout />
-      </div>
+      <DefaultGlobalLayout />
     </div>
     <footer class="footer flex-none">
       <div class="container mx-auto h-full flex items-center justify-center">
@@ -47,8 +45,7 @@ export default {
 }
 
 .jumbotron {
-  height: 20rem;
-  // background: linear-gradient(180deg, #2c3e50, #bdc3c7);
+  height: 26rem;
 }
 
 .header {
@@ -82,19 +79,11 @@ export default {
   min-height: 50rem;
 }
 
-.container-p {
-  padding: 1rem;
-}
-
 @media (min-width: $mdMedia) {
   .header {
     .title {
       display: block;
     }
-  }
-
-  .container-p {
-    padding: 2rem;
   }
 }
 

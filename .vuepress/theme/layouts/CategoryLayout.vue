@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-p">
     <div class="topics">
       <h1>话题</h1>
       <router-link
