@@ -53,6 +53,7 @@ export default {
   },
   created() {
     // this.todayPoetry();
+     console.log(this)
   },
   methods: {
     fetchToken() {

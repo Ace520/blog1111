@@ -6,7 +6,7 @@
         <h3>{{item.date}}</h3>
         <div class="archives-item-1" v-for="(item1,index1) in item.pages" :key="index1">
           <router-link :to="item1.path" class="link">
-            {{item1.frontmatter.date}}
+            {{resolvePostDate(item1.frontmatter.date)}}
             <span style="padding:0 0.8rem">/</span>
             {{item1.title}}
           </router-link>
@@ -16,6 +16,9 @@
   </div>
 </template>
 <script>
+import Vue from "vue";
+import dayjs from "dayjs";
+require("dayjs/locale/zh-cn");
 export default {
   components: {},
   data() {
@@ -25,6 +28,7 @@ export default {
   },
 
   created() {
+    dayjs.locale("zh-cn");
     let arr = [];
     this.$site.pages.forEach(element => {
       if (element.frontmatter.date) {
@@ -58,9 +62,12 @@ export default {
       items[ym]["pages"].push(item);
     });
     this.items = Object.values(items);
-    console.log(this.items);
   },
-  methods: {}
+  methods: {
+    resolvePostDate(date) {
+      return dayjs(date).format("YYYY-MM-DD");
+    }
+  }
 };
 </script>
 <style lang="stylus" scoped>

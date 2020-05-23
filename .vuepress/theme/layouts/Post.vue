@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     resolvePostDate(date) {
-      return dayjs(date).format("YYYY/MM/DD-dddd");
+      return dayjs(date).format("YYYY-MM-DD dddd");
     }
   }
 };
