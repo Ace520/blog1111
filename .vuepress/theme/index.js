@@ -42,7 +42,6 @@ module.exports = {
       },
     }],
     ['@vuepress/back-to-top'],
-    ['@vuepress/last-updated'],
     ['@vuepress/nprogress'],
     ['vuepress-plugin-medium-zoom', {
       selector: '.article img',

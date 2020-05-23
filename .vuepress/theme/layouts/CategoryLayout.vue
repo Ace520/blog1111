@@ -44,7 +44,9 @@ export default {
 
 em {
   font-size: 12px;
-  padding: 0.3 0.5rem;
-  color: #ccc;
+  color: #acce ntColor;
+  background: #ccc;
+  padding: 0 0.4rem;
+  border-radius: 1rem;
 }
 </style>

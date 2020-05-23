@@ -7,7 +7,7 @@ module.exports = {
       { text: '博文', link: '/post/', layouts:['FrontmatterPagination', 'Post'] },
       { text: '归档', link: '/archive', layouts:['ArchiveLayout'] },
       { text: '分类', link: '/category', layouts:['CategoryLayout'] },
-      { text: '关于', link: '/about', layouts:['aboutLayout'] },
+      { text: '关于', link: '/about', layouts:['AboutLayout'] },
     ],
     dateFormat: 'YYYY-MM-DD',
     pwa: {

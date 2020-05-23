@@ -1,24 +1,22 @@
 <template>
   <div>
-    <div class="container-p">
-      <div class="index-title">开源项目</div>
-      <div class="projects">
-        <div v-for="(item,index) in $themeConfig.projects" :key="index">
-          <div
-            class="project-item flex items-center justify-center"
-            :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
-          >
+    <h2 class="text-center">开源项目</h2>
+    <div class="projects">
+      <div v-for="(item,index) in $themeConfig.projects" :key="index">
+        <div
+          class="project-item"
+          :style="{background: 'url(' + $themeConfig.staticUrl + item.img + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+        >
+          <div class="flex items-center justify-center project-item-content">
             <div>
-              <a :href="item.url" target="_blank">
-                <h2 class="text-center">{{item.title}}</h2>
-              </a>
+              <a :href="item.url" class="title" target="_blank">{{item.title}}</a>
               <div class="summary">{{item.summary}}</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="index-title">网站统计</div>
+    <h2 class="text-center">网站统计</h2>
     <div class="counts">
       <div class="container mx-auto flex">
         <div class="counts-item flex-1">
@@ -84,14 +82,6 @@ export default {
   }
 }
 
-.index-title {
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 3.5rem;
-  color: $accentColor;
-  font-size: 1.6rem;
-}
-
 .projects {
   padding: 0 5rem;
 
@@ -102,6 +92,16 @@ export default {
     z-index: 1;
     border: 0 none;
     color: #ffffff;
+
+    .project-item-content {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+
+      .title {
+        font-size: 1.8rem;
+      }
+    }
 
     a {
       color: #ffffff;
@@ -114,7 +114,7 @@ export default {
     .summary {
       font-size: 15px;
       font-weight: 200;
-      line-height: 1.8;
+      line-height: 2;
       display: -webkit-box;
       word-break: break-all;
       -webkit-box-orient: vertical;
@@ -122,6 +122,7 @@ export default {
       overflow: hidden;
       text-overflow: ellipsis;
       text-align: center;
+      margin-top: 1rem;
     }
   }
 

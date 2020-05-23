@@ -18,7 +18,9 @@
       <span v-if="$frontmatter.date" class="item span">/</span>
       <div class="item date">{{$frontmatter.date}}</div>
     </div>
-    <Content />
+    <div class="article">
+      <Content />
+    </div>
     <Comment />
   </div>
 </template>

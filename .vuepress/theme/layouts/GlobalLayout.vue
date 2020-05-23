@@ -6,7 +6,10 @@
     >
       <header class="header flex-none">
         <div class="container mx-auto h-full flex items-center justify-between">
-          <router-link class="title" to="/">{{ $site.title }}</router-link>
+          <div class="flex items-center">
+            <router-link class="title" to="/">{{ $site.title }}</router-link>
+            <SearchBox />
+          </div>
           <div class="nav">
             <router-link
               :class="item.layouts.indexOf($page.frontmatter.layout) > -1 ? 'nav-active':''"
@@ -31,9 +34,10 @@
 
 <script>
 import GlobalLayout from "@app/components/GlobalLayout.vue";
+import SearchBox from "@SearchBox";
 
 export default {
-  components: { DefaultGlobalLayout: GlobalLayout },
+  components: { DefaultGlobalLayout: GlobalLayout, SearchBox },
   created() {}
 };
 </script>
@@ -58,6 +62,10 @@ export default {
     a {
       color: #ffffff;
       margin-left: 1rem;
+      background-color: rgba(10, 10, 1, 0.2);
+      border-radius: 1rem;
+      padding: 0.3rem 0.9rem;
+      font-size: 14px;
     }
 
     .nav-active {

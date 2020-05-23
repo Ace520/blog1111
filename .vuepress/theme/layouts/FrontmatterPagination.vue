@@ -49,6 +49,10 @@ export default {
     line-height: 2.5em;
     font-size: 14px;
     color: #829ebb;
+
+    a {
+      color: #829ebb;
+    }
   }
 
   .title {
