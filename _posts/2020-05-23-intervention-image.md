@@ -2,7 +2,7 @@
 title: intervention/image 图片处理扩展包
 bg: laravel.jpg
 date: 2020-05-23
-topic: Laravel 扩展包
+topic: Composer 扩展包
 tags: 
   - laravel
   - 图片

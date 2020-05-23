@@ -2,7 +2,7 @@
 title: mewebstudio/captcha 图片验证码 
 bg: laravel.jpg
 date: 2020-05-22
-topic: Laravel 扩展包
+topic: Composer 扩展包
 tags: 
   - laravel
   - 验证码

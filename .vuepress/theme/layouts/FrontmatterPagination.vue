@@ -2,7 +2,7 @@
   <div class="posts container-p">
     <div class="mb-4 posts-item" v-for="(item, index) in $pagination.pages" :key="index">
       <div class="flex desc items-center">
-        <div v-if="item.frontmatter.date">{{item.frontmatter.date}}</div>
+        <div v-if="item.frontmatter.date">{{resolvePostDate(item.frontmatter.date)}}</div>
         <span v-if="item.frontmatter.topic" style="padding:0 0.5rem">/</span>
         <router-link
           v-if="item.frontmatter.topic"
@@ -28,13 +28,19 @@
   </div>
 </template>
 <script>
-import Vue from "vue";
+import Vue from 'vue'
+import dayjs from 'dayjs'
 import { Pagination } from "@vuepress/plugin-blog/lib/client/components";
 export default {
   components: {
     Pagination
   },
-  created() {}
+  created() {},
+  methods: {
+    resolvePostDate(date) {
+      return dayjs(date).format(YYYY-MM-DD);
+    }
+  }
 };
 </script>
 <style lang="stylus" scoped>

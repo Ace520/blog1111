@@ -25,16 +25,23 @@
   </div>
 </template>
 <script>
+import Vue from "vue";
+import dayjs from "dayjs";
 import { Comment } from "@vuepress/plugin-blog/lib/client/components";
 export default {
   components: {
     Comment
+  },
+  methods: {
+    resolvePostDate(date) {
+      return dayjs(date).format(YYYY/MM/DD-dddd);
+    }
   }
 };
 </script>
 <style lang="stylus" scoped>
 .tag-item {
-  margin-right: 1.2em;
+  margin-right: 0.3em;
 }
 
 .container-p {

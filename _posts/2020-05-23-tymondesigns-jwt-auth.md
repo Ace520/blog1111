@@ -2,7 +2,7 @@
 title: tymondesigns/jwt-auth JWT (JSON Web Token) 用户认证机制
 bg: laravel.jpg
 date: 2020-05-22
-topic: Laravel 扩展包
+topic: Composer 扩展包
 tags: 
   - laravel
   - 认证
