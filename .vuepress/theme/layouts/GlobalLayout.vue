@@ -2,7 +2,7 @@
   <div id="global-layout" class="flex flex-column">
     <div
       class="jumbotron"
-      :style="{background: 'url(' + $themeConfig.staticUrl + $page.frontmatter.bg + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
+      :style="{background: 'url(' + $themeConfig.staticUrl + ($page.frontmatter.bg ? $page.frontmatter.bg : $themeConfig.defaultBg) + ')',backgroundSize: 'cover',backgroundPosition: 'center'}"
     >
       <header class="header flex-none">
         <div class="container mx-auto h-full flex items-center justify-between">
@@ -34,16 +34,7 @@ import GlobalLayout from "@app/components/GlobalLayout.vue";
 
 export default {
   components: { DefaultGlobalLayout: GlobalLayout },
-  data() {
-    return {
-      bg: ""
-    };
-  },
-  created() {
-    this.bg = this.$page.frontmatter.bg
-      ? this.$page.frontmatter.bg
-      : this.$themeConfig.defaultBg;
-  }
+  created() {}
 };
 </script>
 <style lang="stylus">
@@ -53,6 +44,8 @@ export default {
 
 .jumbotron {
   height: 26rem;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .header {

@@ -20,11 +20,17 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  components: {},
+  created() {}
+};
+</script>
 <style lang="stylus" scoped>
 .container-p {
   padding-top: 0;
 }
+
 .tag-item {
   margin-right: 1.5em;
   margin-bottom: 1rem;
