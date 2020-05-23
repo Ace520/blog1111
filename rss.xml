@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Sat, 23 May 2020 08:17:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 16:54:05 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -15,7 +15,7 @@
             <pubDate>Tue, 18 Jun 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[页面调试工具栏]]></title>
+            <title><![CDATA[页面调试工具栏 barryvdh/laravel-debugbar]]></title>
             <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
@@ -24,11 +24,39 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[图片处理扩展包]]></title>
+            <title><![CDATA[IDE 开发 Laravel 项目的好帮手 barryvdh/laravel-ide-helper]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+]]></description>
+            <enclosure url="https://ace520.github.io/blog/LICENSE.md">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[图片处理扩展包 intervention/image]]></title>
             <link>https://ace520.github.io/blog/2020/05/23/intervention-image/</link>
             <guid>https://ace520.github.io/blog/2020/05/23/intervention-image/</guid>
             <pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Intervention Image is a PHP image handling and manipulation library providing an easier and expressive way to create, edit, and compose images. The package includes ServiceProviders and Facades for easy Laravel integration.]]></description>
+            <description><![CDATA[// open an image file
+$img = Image::make('public/foo.jpg');]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Excel 处理工具 Maatwebsite/Laravel-Excel]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[ ·
+  Nova
+   ·
+  Blog
+   ·
+  Contributing
+   ·
+  Support
+]]></description>
+            <enclosure url="https://user-images.githubusercontent.com/7728097/57463977-2263fc80-727c-11e9-833d-669d816fb7fb.jpg">
+            </enclosure>
         </item>
     </channel>
 </rss>

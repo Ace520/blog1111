@@ -14,17 +14,33 @@
         {
             "id": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/",
             "url": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/",
-            "title": "页面调试工具栏",
+            "title": "页面调试工具栏 barryvdh/laravel-debugbar",
             "summary": "https://github.com/barryvdh/laravel-debugbar",
             "image": "https://poser.pugx.org/barryvdh/laravel-debugbar/license.png",
             "date_modified": "2020-05-22T00:00:00.000Z"
         },
         {
+            "id": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/",
+            "url": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/",
+            "title": "IDE 开发 Laravel 项目的好帮手 barryvdh/laravel-ide-helper",
+            "summary": "\n",
+            "image": "https://ace520.github.io/blog/LICENSE.md",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
             "id": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
             "url": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
-            "title": "图片处理扩展包",
-            "summary": "Intervention Image is a PHP image handling and manipulation library providing an easier and expressive way to create, edit, and compose images. The package includes ServiceProviders and Facades for easy Laravel integration.",
+            "title": "图片处理扩展包 intervention/image",
+            "summary": "// open an image file\n$img = Image::make('public/foo.jpg');",
             "date_modified": "2020-05-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/",
+            "url": "https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/",
+            "title": "Excel 处理工具 Maatwebsite/Laravel-Excel",
+            "summary": " ·\n  Nova\n   ·\n  Blog\n   ·\n  Contributing\n   ·\n  Support\n",
+            "image": "https://user-images.githubusercontent.com/7728097/57463977-2263fc80-727c-11e9-833d-669d816fb7fb.jpg",
+            "date_modified": "2020-05-22T00:00:00.000Z"
         }
     ]
 }
