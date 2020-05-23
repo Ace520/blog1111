@@ -20,6 +20,7 @@
           </div>
         </div>
       </header>
+      <div class="jumbotron-content"></div>
     </div>
     <div class="flex-1 main-content container mx-auto">
       <DefaultGlobalLayout />
@@ -50,6 +51,13 @@ export default {
   height: 26rem;
   background-position: center !important;
   background-size: cover !important;
+
+  .jumbotron-content {
+    width: 100%;
+    height: 13rem;
+    margin-top: 13rem;
+    background-image: linear-gradient(to bottom, transparent, $bgColor);
+  }
 }
 
 .header {
@@ -85,7 +93,7 @@ export default {
   margin-top: -7rem;
   background: #ffffff;
   min-height: 50rem;
-  box-shadow: inset 0 -3px 0 2px hsla(0, 0%, 100%, 0.75), inset 0 -1px 0 #d8e0ea, inset -1px 0 0 #d8e0ea, inset 1px 0 0 #d8e0ea, 0 5px 5px rgba(215, 221, 230, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: $mdMedia) {
