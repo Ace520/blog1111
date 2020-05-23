@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Sat, 23 May 2020 17:02:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 17:23:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -15,47 +15,111 @@
             <pubDate>Tue, 18 Jun 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[【barryvdh/laravel-debugbar】页面调试工具栏]]></title>
+            <title><![CDATA[SimpleSoftwareIO/simple-qrcode 二维码生成]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simple QrCode
+
+Upload files with a single curl command from your terminal! curl --upload-file file.txt https://keep.sh]]></description>
+        </item>
+        <item>
+            <title><![CDATA[barryvdh/laravel-debugbar 页面调试工具栏]]></title>
             <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[https://github.com/barryvdh/laravel-debugbar]]></description>
+            <description><![CDATA[
+]]></description>
             <enclosure url="https://poser.pugx.org/barryvdh/laravel-debugbar/license.png">
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[IDE 开发 Laravel 项目的好帮手 barryvdh/laravel-ide-helper]]></title>
+            <title><![CDATA[barryvdh/laravel-dompdf PDF 操作工具]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Barryvdh\DomPDF\ServiceProvider::class,]]></description>
+        </item>
+        <item>
+            <title><![CDATA[barryvdh/laravel-ide-helper IDE 开发 Laravel 项目的好帮手]]></title>
             <link>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-]]></description>
+            <description><![CDATA[Require this package with composer using the following command:]]></description>
             <enclosure url="https://ace520.github.io/blog/LICENSE.md">
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[图片处理扩展包 intervention/image]]></title>
+            <title><![CDATA[dingo/api 构建 API 服务器的完整解决方案]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/dingo-api/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/dingo-api/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[For answers you may not find in the Wiki, avoid posting issues. Feel free to ask for support on the dedicated Slack room. Make sure to mention specialtactics so he is notified.]]></description>
+            <enclosure url="https://img.shields.io/travis/dingo/api/master.svg?style=flat-square">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[fruitcake/laravel-cors 跨域资源共享的支持]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[To allow CORS for all your routes, add the HandleCors middleware in the $middleware property of  app/Http/Kernel.php class:]]></description>
+            <enclosure url="https://ace520.github.io/blog/LICENSE.md">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[intervention/image 图片处理扩展包]]></title>
             <link>https://ace520.github.io/blog/2020/05/23/intervention-image/</link>
             <guid>https://ace520.github.io/blog/2020/05/23/intervention-image/</guid>
             <pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[// open an image file
-$img = Image::make('public/foo.jpg');]]></description>
         </item>
         <item>
-            <title><![CDATA[Excel 处理工具 Maatwebsite/Laravel-Excel]]></title>
+            <title><![CDATA[jenssegers/date 日期处理工具]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/jenssegers-date/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/jenssegers-date/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[https://github.com/jenssegers/date
+Date
+]]></description>
+            <enclosure url="http://img.shields.io/github/release/jenssegers/date.svg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[jenssegers/laravel-mongodb MongoDB 数据库的支持]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Laravel MongoDB
+]]></description>
+            <enclosure url="http://img.shields.io/github/release/jenssegers/laravel-mongodb.svg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Maatwebsite/Laravel-Excel Excel 处理工具]]></title>
             <link>https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[ ·
-  Nova
-   ·
-  Blog
-   ·
-  Contributing
-   ·
-  Support
-]]></description>
             <enclosure url="https://user-images.githubusercontent.com/7728097/57463977-2263fc80-727c-11e9-833d-669d816fb7fb.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[mewebstudio/captcha 图片验证码]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+]]></description>
+            <enclosure url="https://travis-ci.org/mewebstudio/captcha.svg?branch=master">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[tymondesigns/jwt-auth JWT (JSON Web Token) 用户认证机制]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+]]></description>
+            <enclosure url="https://cloud.githubusercontent.com/assets/1801923/9915273/119b9350-5cae-11e5-850b-c941cac60b32.png">
             </enclosure>
         </item>
     </channel>

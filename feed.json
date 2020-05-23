@@ -12,34 +12,94 @@
             "date_modified": "2019-06-18T00:00:00.000Z"
         },
         {
+            "id": "https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/",
+            "url": "https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/",
+            "title": "SimpleSoftwareIO/simple-qrcode 二维码生成",
+            "summary": "Simple QrCode\n\nUpload files with a single curl command from your terminal! curl --upload-file file.txt https://keep.sh",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
             "id": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/",
             "url": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/",
-            "title": "【barryvdh/laravel-debugbar】页面调试工具栏",
-            "summary": "https://github.com/barryvdh/laravel-debugbar",
+            "title": "barryvdh/laravel-debugbar 页面调试工具栏",
+            "summary": "\n",
             "image": "https://poser.pugx.org/barryvdh/laravel-debugbar/license.png",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/",
+            "url": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/",
+            "title": "barryvdh/laravel-dompdf PDF 操作工具",
+            "summary": "Barryvdh\\DomPDF\\ServiceProvider::class,",
             "date_modified": "2020-05-22T00:00:00.000Z"
         },
         {
             "id": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/",
             "url": "https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/",
-            "title": "IDE 开发 Laravel 项目的好帮手 barryvdh/laravel-ide-helper",
-            "summary": "\n",
+            "title": "barryvdh/laravel-ide-helper IDE 开发 Laravel 项目的好帮手",
+            "summary": "Require this package with composer using the following command:",
+            "image": "https://ace520.github.io/blog/LICENSE.md",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/dingo-api/",
+            "url": "https://ace520.github.io/blog/2020/05/22/dingo-api/",
+            "title": "dingo/api 构建 API 服务器的完整解决方案",
+            "summary": "For answers you may not find in the Wiki, avoid posting issues. Feel free to ask for support on the dedicated Slack room. Make sure to mention specialtactics so he is notified.",
+            "image": "https://img.shields.io/travis/dingo/api/master.svg?style=flat-square",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/",
+            "url": "https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/",
+            "title": "fruitcake/laravel-cors 跨域资源共享的支持",
+            "summary": "To allow CORS for all your routes, add the HandleCors middleware in the $middleware property of  app/Http/Kernel.php class:",
             "image": "https://ace520.github.io/blog/LICENSE.md",
             "date_modified": "2020-05-22T00:00:00.000Z"
         },
         {
             "id": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
             "url": "https://ace520.github.io/blog/2020/05/23/intervention-image/",
-            "title": "图片处理扩展包 intervention/image",
-            "summary": "// open an image file\n$img = Image::make('public/foo.jpg');",
+            "title": "intervention/image 图片处理扩展包",
             "date_modified": "2020-05-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/jenssegers-date/",
+            "url": "https://ace520.github.io/blog/2020/05/22/jenssegers-date/",
+            "title": "jenssegers/date 日期处理工具",
+            "summary": "https://github.com/jenssegers/date\nDate\n",
+            "image": "http://img.shields.io/github/release/jenssegers/date.svg",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/",
+            "url": "https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/",
+            "title": "jenssegers/laravel-mongodb MongoDB 数据库的支持",
+            "summary": "Laravel MongoDB\n",
+            "image": "http://img.shields.io/github/release/jenssegers/laravel-mongodb.svg",
+            "date_modified": "2020-05-22T00:00:00.000Z"
         },
         {
             "id": "https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/",
             "url": "https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/",
-            "title": "Excel 处理工具 Maatwebsite/Laravel-Excel",
-            "summary": " ·\n  Nova\n   ·\n  Blog\n   ·\n  Contributing\n   ·\n  Support\n",
+            "title": "Maatwebsite/Laravel-Excel Excel 处理工具",
             "image": "https://user-images.githubusercontent.com/7728097/57463977-2263fc80-727c-11e9-833d-669d816fb7fb.jpg",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/",
+            "url": "https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/",
+            "title": "mewebstudio/captcha 图片验证码",
+            "summary": "\n",
+            "image": "https://travis-ci.org/mewebstudio/captcha.svg?branch=master",
+            "date_modified": "2020-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/",
+            "url": "https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/",
+            "title": "tymondesigns/jwt-auth JWT (JSON Web Token) 用户认证机制",
+            "summary": "\n",
+            "image": "https://cloud.githubusercontent.com/assets/1801923/9915273/119b9350-5cae-11e5-850b-c941cac60b32.png",
             "date_modified": "2020-05-22T00:00:00.000Z"
         }
     ]

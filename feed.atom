@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ace520.github.io/blog</id>
     <title>ACE-BLOG</title>
-    <updated>2020-05-23T17:02:00.184Z</updated>
+    <updated>2020-05-23T17:23:42.284Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://ace520.github.io/blog"/>
     <link rel="self" href="https://ace520.github.io/blog/feed.atom"/>
@@ -15,45 +15,105 @@
         <updated>2019-06-18T00:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【barryvdh/laravel-debugbar】页面调试工具栏]]></title>
-        <id>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</id>
-        <link href="https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/">
+        <title type="html"><![CDATA[SimpleSoftwareIO/simple-qrcode 二维码生成]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/simplesoftwareio-simple-qrcode/">
         </link>
         <updated>2020-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/barryvdh/laravel-debugbar]]></summary>
+        <summary type="html"><![CDATA[Simple QrCode
+
+Upload files with a single curl command from your terminal! curl --upload-file file.txt https://keep.sh]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IDE 开发 Laravel 项目的好帮手 barryvdh/laravel-ide-helper]]></title>
-        <id>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</id>
-        <link href="https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/">
+        <title type="html"><![CDATA[barryvdh/laravel-debugbar 页面调试工具栏]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-debugbar/">
         </link>
         <updated>2020-05-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[
 ]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[图片处理扩展包 intervention/image]]></title>
+        <title type="html"><![CDATA[barryvdh/laravel-dompdf PDF 操作工具]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-dompdf/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Barryvdh\DomPDF\ServiceProvider::class,]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[barryvdh/laravel-ide-helper IDE 开发 Laravel 项目的好帮手]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/barryvdh-laravel-ide-helper/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Require this package with composer using the following command:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dingo/api 构建 API 服务器的完整解决方案]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/dingo-api/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/dingo-api/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For answers you may not find in the Wiki, avoid posting issues. Feel free to ask for support on the dedicated Slack room. Make sure to mention specialtactics so he is notified.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fruitcake/laravel-cors 跨域资源共享的支持]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/fruitcake-laravel-cors/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To allow CORS for all your routes, add the HandleCors middleware in the $middleware property of  app/Http/Kernel.php class:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[intervention/image 图片处理扩展包]]></title>
         <id>https://ace520.github.io/blog/2020/05/23/intervention-image/</id>
         <link href="https://ace520.github.io/blog/2020/05/23/intervention-image/">
         </link>
         <updated>2020-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[// open an image file
-$img = Image::make('public/foo.jpg');]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Excel 处理工具 Maatwebsite/Laravel-Excel]]></title>
+        <title type="html"><![CDATA[jenssegers/date 日期处理工具]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/jenssegers-date/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/jenssegers-date/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/jenssegers/date
+Date
+]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jenssegers/laravel-mongodb MongoDB 数据库的支持]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/jenssegers-laravel-mongodb/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Laravel MongoDB
+]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maatwebsite/Laravel-Excel Excel 处理工具]]></title>
         <id>https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/</id>
         <link href="https://ace520.github.io/blog/2020/05/22/maatwebsite-laravel-excel/">
         </link>
         <updated>2020-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ ·
-  Nova
-   ·
-  Blog
-   ·
-  Contributing
-   ·
-  Support
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mewebstudio/captcha 图片验证码]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/mewebstudio-captcha/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[
+]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tymondesigns/jwt-auth JWT (JSON Web Token) 用户认证机制]]></title>
+        <id>https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/</id>
+        <link href="https://ace520.github.io/blog/2020/05/22/tymondesigns-jwt-auth/">
+        </link>
+        <updated>2020-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[
 ]]></summary>
     </entry>
 </feed>
