@@ -85,6 +85,7 @@ export default {
   margin-top: -7rem;
   background: #ffffff;
   min-height: 50rem;
+  box-shadow: inset 0 -3px 0 2px hsla(0, 0%, 100%, 0.75), inset 0 -1px 0 #d8e0ea, inset -1px 0 0 #d8e0ea, inset 1px 0 0 #d8e0ea, 0 5px 5px rgba(215, 221, 230, 0.5);
 }
 
 @media (min-width: $mdMedia) {
