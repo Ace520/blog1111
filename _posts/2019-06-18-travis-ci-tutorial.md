@@ -2,6 +2,7 @@
 title: Travis CI持续集成服务
 bg: 1.jpg
 date: 2019-06-18
+topic: Travis
 tags: 
   - GitHub
   - 部署

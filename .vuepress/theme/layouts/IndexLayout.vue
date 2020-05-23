@@ -88,7 +88,7 @@ export default {
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 3.5rem;
-  color: $primaryColor;
+  color: $accentColor;
   font-size: 1.6rem;
 }
 
@@ -145,7 +145,7 @@ export default {
 }
 
 .counts {
-  background: $primaryColor;
+  background: $accentColor;
   padding: 3rem 0;
   color: #ffffff;
 
@@ -165,7 +165,7 @@ export default {
 
       i {
         font-size: 1.5rem;
-        color: $primaryColor;
+        color: $accentColor;
       }
     }
   }

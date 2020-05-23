@@ -1,15 +1,16 @@
 <template>
   <div class="container-p">
-    <h1>归档</h1>
+    <h2>归档</h2>
     <div class="archives">
       <div v-for="(item,index) in items" :key="index" class="archives-item">
-        <div>{{item.date}}</div>
-        <router-link
-          :to="item1.path"
-          v-for="(item1,index1) in item.pages"
-          :key="index1"
-          class="tag-item"
-        >{{item1.frontmatter.date}}{{item1.title}}</router-link>
+        <h3>{{item.date}}</h3>
+        <div class="archives-item-1" v-for="(item1,index1) in item.pages" :key="index1">
+          <router-link :to="item1.path" class="link">
+            {{item1.frontmatter.date}}
+            <span style="padding:0 0.8rem">/</span>
+            {{item1.title}}
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -46,7 +47,7 @@ export default {
     let items = [];
     let dateArr = [];
     itemsSort.forEach(item => {
-      let arr = item.frontmatter.date.split('-');
+      let arr = item.frontmatter.date.split("-");
       let ym = arr[0] + "-" + arr[1];
       if (!items[ym]) {
         items[ym] = {
@@ -62,3 +63,12 @@ export default {
   methods: {}
 };
 </script>
+<style lang="stylus" scoped>
+.container-p {
+  padding-top: 0;
+}
+
+.archives-item-1 {
+  line-height: 2.5;
+}
+</style>

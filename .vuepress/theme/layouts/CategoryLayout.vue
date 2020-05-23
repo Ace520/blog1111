@@ -1,34 +1,44 @@
 <template>
   <div class="container-p">
     <div class="topics">
-      <h1>话题</h1>
-      <router-link
-        :to="item.path"
-        v-for="(item,index) in $topic.list"
-        :key="index"
-        class="tag-item"
-      >{{item.name}}{{item.pages.length}}</router-link>
+      <h2>话题</h2>
+      <ur>
+        <li v-for="(item,index) in $topic.list" :key="index">
+          <router-link :to="item.path" class="link">
+            {{item.name}}
+            <em>{{item.pages.length}}</em>
+          </router-link>
+        </li>
+      </ur>
     </div>
     <div class="tags">
-      <h1>标签</h1>
-      <router-link
-        :to="item.path"
-        v-for="(item,index) in $tag.list"
-        :key="index"
-        class="tag-item"
-      >{{item.name}}{{item.pages.length}}</router-link>
+      <h2>标签</h2>
+      <router-link :to="item.path" v-for="(item,index) in $tag.list" :key="index" class="tag-item">
+        {{item.name}}
+        <em>{{item.pages.length}}</em>
+      </router-link>
     </div>
   </div>
 </template>
 
 <style lang="stylus" scoped>
+.container-p {
+  padding-top: 0;
+}
 .tag-item {
-  margin: 10px;
-  display: -webkit-inline-box;
-  display: inline-flex;
-  border: 1px solid #eaecef;
-  background: linear-gradient(120deg, #fff 65%, #f1f6f5 0);
-  position: relative;
-  overflow: hidden;
+  margin-right: 1.5em;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.topics li {
+  line-height: 2;
+  font-size: 16px;
+}
+
+em {
+  font-size: 12px;
+  padding: 0.3 0.5rem;
+  color: #ccc;
 }
 </style>

@@ -17,6 +17,7 @@ module.exports = {
     paginationComponent: 'Pagination',
     smoothScroll: true,
     staticUrl: 'https://raw.githubusercontent.com/Ace520/blog/master/static/',
+    defaultBg: '1.jpg',
     projects: [
       {
         title: 'CheatSheet',

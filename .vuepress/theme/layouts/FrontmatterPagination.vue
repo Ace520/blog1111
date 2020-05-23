@@ -1,33 +1,24 @@
 <template>
   <div class="posts container-p">
-    <div class="flex">
-      <div class="flex-1">
-        <div class="mb-4" v-for="(item, index) in $pagination.pages" :key="index">
-          <div class="flex">
-            <div
-              class="posts-item-footer-item flex items-center"
-              v-if="item.frontmatter.date"
-            >{{item.frontmatter.date}}</div>
-            <div class="posts-item-footer-item flex items-center" v-if="item.frontmatter.topic">
-              <router-link
-                class="link"
-                :to="'/topic/' + item.frontmatter.topic"
-              >{{item.frontmatter.topic}}</router-link>
-            </div>
-          </div>
-          <div class="posts-item flex items-center justify-between">
-             <router-link class="link posts-item-title" :to="item.path">{{ item.title }}</router-link>
-              <div class="posts-item-footer">
-                <div class="posts-item-footer-item flex items-center" v-if="item.frontmatter.tags">
-                  <router-link
-                    class="tag-item"
-                    v-for="(item1,index1) in item.frontmatter.tags"
-                    :key="index1"
-                    :to="'/tag/' + item1"
-                  >{{ item1 }}</router-link>
-                </div>
-              </div>
-            </div>
+    <div class="mb-4 posts-item" v-for="(item, index) in $pagination.pages" :key="index">
+      <div class="flex desc items-center">
+        <div v-if="item.frontmatter.date">{{item.frontmatter.date}}</div>
+        <span v-if="item.frontmatter.topic" style="padding:0 0.5rem">/</span>
+        <router-link
+          v-if="item.frontmatter.topic"
+          class="link"
+          :to="'/topic/' + item.frontmatter.topic"
+        >{{item.frontmatter.topic}}</router-link>
+      </div>
+      <div class="content">
+        <router-link class="link title" :to="item.path">{{ item.title }}</router-link>
+        <div class="flex items-center" v-if="item.frontmatter.tags">
+          <router-link
+            class="tag-item"
+            v-for="(item1,index1) in item.frontmatter.tags"
+            :key="index1"
+            :to="'/tag/' + item1"
+          >{{ item1 }}</router-link>
         </div>
       </div>
     </div>
@@ -51,20 +42,38 @@ export default {
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
+}
 
-  .posts-item-title {
-    line-height: 2.5rem;
+.posts-item {
+  .desc {
+    line-height: 2.5em;
+    font-size: 14px;
+    color: #829ebb;
+  }
+
+  .title {
+    font-size: 1.3em;
+    font-weight: 300;
+  }
+
+  .tag-item {
+    margin-right: 1.2em;
+    margin-top: 0.7rem;
   }
 }
 
 @media (min-width: $mdMedia) {
   .posts-item {
-    flex-direction: unset;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-    .posts-item-title {
-      line-height: normal;
+    .tag-item {
+      margin-right: 0;
+      margin-left: 1.2em;
+      margin-top: 0;
     }
   }
 }

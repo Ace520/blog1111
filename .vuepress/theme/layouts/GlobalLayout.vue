@@ -34,8 +34,15 @@ import GlobalLayout from "@app/components/GlobalLayout.vue";
 
 export default {
   components: { DefaultGlobalLayout: GlobalLayout },
+  data() {
+    return {
+      bg: ""
+    };
+  },
   created() {
-    console.log(this.$page);
+    this.bg = this.$page.frontmatter.bg
+      ? this.$page.frontmatter.bg
+      : this.$themeConfig.defaultBg;
   }
 };
 </script>
@@ -61,13 +68,13 @@ export default {
     }
 
     .nav-active {
-      color: $primaryColor;
+      color: $accentColor;
     }
   }
 
   .title {
     font-size: 22px;
-    color: $primaryColor;
+    color: $accentColor;
     text-align: center;
     display: none;
   }
@@ -91,10 +98,10 @@ export default {
   height: 4rem;
 
   a {
-    color: $primaryColor;
+    color: $accentColor;
 
     &:hover {
-      color: $primaryColor;
+      color: $accentColor;
     }
   }
 }
