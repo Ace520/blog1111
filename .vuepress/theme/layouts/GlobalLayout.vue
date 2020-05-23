@@ -20,7 +20,14 @@
           </div>
         </div>
       </header>
-      <div class="jumbotron-content"></div>
+      <div class="jumbotron-dark"></div>
+      <div class="slogan h-full w-full" v-if="dynamicSlogan">
+        <div class="content" v-text="dynamicSlogan.content"></div>
+        <span class="meta">
+          《{{dynamicSlogan.origin.title}}》·
+          <span v-text="dynamicSlogan.origin.author"></span>
+        </span>
+      </div>
     </div>
     <div class="flex-1 main-content container mx-auto">
       <DefaultGlobalLayout />
@@ -39,7 +46,48 @@ import SearchBox from "@SearchBox";
 
 export default {
   components: { DefaultGlobalLayout: GlobalLayout, SearchBox },
-  created() {}
+  data() {
+    return {
+      dynamicSlogan: undefined
+    };
+  },
+  created() {
+    this.todayPoetry();
+  },
+  methods: {
+    fetchToken() {
+      return fetch("https://v2.jinrishici.com/token")
+        .then(data => {
+          return data.json();
+        })
+        .then(response => {
+          window.localStorage.setItem("SEEKER_POETRY_TOKEN", response.data);
+          return Promise.resolve(response.data);
+        });
+    },
+    todayPoetry() {
+      let token = window.localStorage.getItem("SEEKER_POETRY_TOKEN");
+      if (token) {
+        return this.fetchPoetry(token);
+      } else {
+        return this.fetchToken().then(token => {
+          return this.fetchPoetry(token);
+        });
+      }
+    },
+    fetchPoetry(token) {
+      fetch(
+        "https://v2.jinrishici.com/one.json?X-User-Token=" +
+          encodeURIComponent(token)
+      )
+        .then(data => {
+          return data.json();
+        })
+        .then(response => {
+          this.dynamicSlogan = response.data;
+        });
+    }
+  }
 };
 </script>
 <style lang="stylus">
@@ -52,7 +100,8 @@ export default {
   background-position: center !important;
   background-size: cover !important;
 
-  .jumbotron-content {
+  .jumbotron-dark {
+    position: absolute;
     width: 100%;
     height: 13rem;
     margin-top: 13rem;
@@ -83,7 +132,7 @@ export default {
 
   .title {
     font-size: 22px;
-    color: $accentColor;
+    color: #ffffff;
     text-align: center;
     display: none;
   }
@@ -93,7 +142,8 @@ export default {
   margin-top: -7rem;
   background: #ffffff;
   min-height: 50rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px rgba(0, 0, 0, 0.05);
+  z-index: 1;
 }
 
 @media (min-width: $mdMedia) {
@@ -113,6 +163,22 @@ export default {
     &:hover {
       color: $accentColor;
     }
+  }
+}
+
+.slogan {
+  text-align: center;
+  padding-top: 7.8rem;
+  color: #ffffff;
+
+  .content {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    font-size: 14px;
   }
 }
 </style>
