@@ -1,0 +1,11 @@
+---
+title: 页面调试工具栏 
+bg: laravel.jpg
+date: 2020-05-22
+topic: Laravel 扩展包
+tags: 
+  - laravel
+  - 工具
+---
+
+[https://github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
