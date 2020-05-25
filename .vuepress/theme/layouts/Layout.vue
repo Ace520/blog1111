@@ -1,5 +1,8 @@
 <template>
-  <div></div>
+  <div>
+    <FrontmatterPagination v-if="$pagination" />
+    <Content v-else />
+  </div>
 </template>
 export default {
 };

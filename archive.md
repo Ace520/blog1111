@@ -1,4 +1,4 @@
 ---
 layout: ArchiveLayout
-bg: 2.jpg
+bg: compass.jpg
 ---
