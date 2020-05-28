@@ -7,107 +7,79 @@ tags:
   - 日期
 ---
 
-[https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
+> [Day.js](https://github.com/iamkun/dayjs)是[Moment.js](https://github.com/moment/moment/) 的 2kB 轻量化方案，拥有同样强大的 API
 
-> Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for modern browsers with a largely Moment.js-compatible API. If you use Moment.js, you already know how to use Day.js.
-
-```js
-dayjs().startOf('month').add(1, 'day').set('year', 2018).format('YYYY-MM-DD HH:mm:ss');
-```
-
-* 🕒 Familiar Moment.js API & patterns
-* 💪 Immutable
-* 🔥 Chainable
-* 🌐 I18n support
-* 📦 2kb mini library
-* 👫 All browsers supported
+- 🕒 和 Moment.js 相同的 API 和用法
+- 💪 不可变数据 (Immutable)
+- 🔥 支持链式操作 (Chainable)
+- 🌐 国际化 I18n
+- 📦 仅 2kb 大小的微型库
+- 👫 全浏览器兼容
 
 ---
 
-## Getting Started
+## 快速开始
 
-### Documentation
+### 文档
 
-You can find for more details, API, and other docs on [day.js.org](https://day.js.org/) website.
+访问 [day.js.org](https://day.js.org/) 网站查看更详细的文档
 
-### Installation
+### 安装
 
 ```console
 npm install dayjs --save
 ```
 
-📚[Installation Guide](https://day.js.org/docs/en/installation/installation)
+📚[安装指南](https://day.js.org/docs/zh-CN/installation/installation)
 
 ### API
 
-It's easy to use Day.js APIs to parse, validate, manipulate, and display dates and times.
+Day.js 有很多 API 来解析、处理、校验、增减、展示时间和日期
 
 ```javascript
-dayjs('2018-08-08') // parse
+dayjs('2018-08-08') // 解析
 
-dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A') // display
+dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A') // 展示
 
-dayjs().set('month', 3).month() // get & set
+dayjs()
+  .set('month', 3)
+  .month() // 获取
 
-dayjs().add(1, 'year') // manipulate
+dayjs().add(1, 'year') // 处理
 
-dayjs().isBefore(dayjs()) // query
+dayjs().isBefore(dayjs()) // 查询
 ```
 
-📚[API Reference](https://day.js.org/docs/en/parse/parse)
+📚[API 参考](https://day.js.org/docs/zh-CN/parse/parse)
 
-### I18n
+### 国际化 I18n
 
-Day.js has great support for internationalization.
+Day.js 支持国际化
 
-But none of them will be included in your build unless you use it.
+但除非手动加载，多国语言默认是不会被打包到工程里的
 
 ```javascript
-import 'dayjs/locale/es' // load on demand
+import 'dayjs/locale/es' // 按需加载
 
-dayjs.locale('es') // use Spanish locale globally
+dayjs.locale('es') // 全局使用西班牙语
 
-dayjs('2018-05-05').locale('zh-cn').format() // use Chinese Simplified locale in a specific instance
+dayjs('2018-05-05')
+  .locale('zh-cn')
+  .format() // 在这个实例上使用简体中文
 ```
-📚[Internationalization](https://day.js.org/docs/en/i18n/i18n)
 
-### Plugin
+📚[国际化 I18n](https://day.js.org/docs/zh-CN/i18n/i18n)
 
-A plugin is an independent module that can be added to Day.js to extend functionality or add new features.
+### 插件
+
+插件是一些独立的程序，可以给 Day.js 增加新功能和扩展已有功能
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // load on demand
+import advancedFormat from 'dayjs/plugin/advancedFormat' // 按需加载插件
 
-dayjs.extend(advancedFormat) // use plugin
+dayjs.extend(advancedFormat) // 使用插件
 
-dayjs().format('Q Do k kk X x') // more available formats
+dayjs().format('Q Do k kk X x') // 使用扩展后的API
 ```
 
-📚[Plugin List](https://day.js.org/docs/en/plugin/plugin)
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/dayjs#sponsor)]
-
-<a href="https://opencollective.com/dayjs/sponsor/0/website" target="_blank"><img src="https://opencollective.com/dayjs/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/dayjs/sponsor/1/website" target="_blank"><img src="https://opencollective.com/dayjs/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/dayjs/sponsor/2/website" target="_blank"><img src="https://opencollective.com/dayjs/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/dayjs/sponsor/3/website" target="_blank"><img src="https://opencollective.com/dayjs/sponsor/3/avatar.svg"></a>
-
-## Contributors
-
-This project exists thanks to all the people who contribute.
-
-Please give us a 💖 star 💖 to support us. Thank you.
-
-And thank you to all our backers! 🙏
-
-<a href="https://opencollective.com/dayjs/backer/0/website?requireActive=false" target="_blank"><img src="https://opencollective.com/dayjs/backer/0/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/dayjs/backer/1/website?requireActive=false" target="_blank"><img src="https://opencollective.com/dayjs/backer/1/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/dayjs/backer/2/website?requireActive=false" target="_blank"><img src="https://opencollective.com/dayjs/backer/2/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/dayjs/backer/3/website?requireActive=false" target="_blank"><img src="https://opencollective.com/dayjs/backer/3/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/dayjs#backers" target="_blank"><img src="https://opencollective.com/dayjs/contributors.svg?width=890" /></a>
-
-## License
-
-Day.js is licensed under a [MIT License](./LICENSE).
+📚[插件列表](https://day.js.org/docs/zh-CN/plugin/plugin)
