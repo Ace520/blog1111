@@ -1,6 +1,6 @@
 ---
 title: iamkun/dayjs 一个轻量的处理时间和日期的 JavaScript 库
-bg: node-npm.jpg
+bg: clock.jpg
 date: 2020-05-24
 topic: NPM 扩展包
 tags: 
