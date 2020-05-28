@@ -106,8 +106,6 @@
             "id": "https://ace520.github.io/blog/2020/05/24/iamkun-dayjs/",
             "url": "https://ace520.github.io/blog/2020/05/24/iamkun-dayjs/",
             "title": "iamkun/dayjs 一个轻量的处理时间和日期的 JavaScript 库",
-            "summary": "dayjs.locale('es') // use Spanish locale globally",
-            "image": "https://opencollective.com/dayjs/sponsor/0/avatar.svg",
             "date_modified": "2020-05-24T00:00:00.000Z"
         }
     ]
