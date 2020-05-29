@@ -114,6 +114,13 @@
             "title": "Vue Router路由管理器",
             "summary": "Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。",
             "date_modified": "2020-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/25/vuex/",
+            "url": "https://ace520.github.io/blog/2020/05/25/vuex/",
+            "title": "Vue Router路由管理器",
+            "summary": "import Vue from 'vue'\nimport Vuex from 'vuex'\nimport test from './modules/test'\n...\nVue.use(Vuex)",
+            "date_modified": "2020-05-25T00:00:00.000Z"
         }
     ]
 }
