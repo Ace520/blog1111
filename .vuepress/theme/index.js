@@ -70,6 +70,9 @@ module.exports = {
     }],
     ['@vuepress/search', {
       searchMaxSuggestions: 10
+    }],
+    ['@vuepress/google-analytics', {
+      'ga': 'UA-167995366-1'
     }]
   ],
 }
