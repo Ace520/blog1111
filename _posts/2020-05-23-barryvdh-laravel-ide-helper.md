@@ -2,7 +2,7 @@
 title: barryvdh/laravel-ide-helper IDE 开发 Laravel 项目的好帮手 
 bg: laravel.jpg
 date: 2020-05-22
-topic: Composer 扩展包
+topic: Laravel 扩展包
 tags: 
   - laravel
   - 工具

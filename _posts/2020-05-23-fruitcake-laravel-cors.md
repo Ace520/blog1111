@@ -2,7 +2,7 @@
 title: fruitcake/laravel-cors 跨域资源共享的支持
 bg: laravel.jpg
 date: 2020-05-22
-topic: Composer 扩展包
+topic: Laravel 扩展包
 tags: 
   - laravel
   - 跨域
