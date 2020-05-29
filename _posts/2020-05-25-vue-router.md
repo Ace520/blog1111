@@ -45,6 +45,7 @@ const routes = [
         component: Index,
         meta: {keepAlive: true}
     },
+    ...
 ]
 
 const router = new VueRouter({
@@ -62,7 +63,7 @@ const router = new VueRouter({
 
 export default router
 ```
-#### src/main.js 
+- src/main.js 
 ```
 import Vue from 'vue'
 import App from './App.vue'
