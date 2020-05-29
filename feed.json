@@ -107,6 +107,13 @@
             "url": "https://ace520.github.io/blog/2020/05/24/iamkun-dayjs/",
             "title": "iamkun/dayjs 一个轻量的处理时间和日期的 JavaScript 库",
             "date_modified": "2020-05-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://ace520.github.io/blog/2020/05/22/vue-router/",
+            "url": "https://ace520.github.io/blog/2020/05/22/vue-router/",
+            "title": "Vue Router路由管理器",
+            "summary": "Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。",
+            "date_modified": "2020-05-22T00:00:00.000Z"
         }
     ]
 }
