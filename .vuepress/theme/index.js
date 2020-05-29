@@ -35,7 +35,6 @@ module.exports = {
         repo: 'blog',
         clientId: 'Iv1.535c99f0a882ed45',
         clientSecret: '6ec379adea91d41358679a159e6688a258dff8a9',
-        autoCreateIssue: true
       },
       feed: {
         canonical_base: 'https://ace520.github.io/blog'
