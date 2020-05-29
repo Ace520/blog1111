@@ -109,11 +109,11 @@
             "date_modified": "2020-05-24T00:00:00.000Z"
         },
         {
-            "id": "https://ace520.github.io/blog/2020/05/22/vue-router/",
-            "url": "https://ace520.github.io/blog/2020/05/22/vue-router/",
+            "id": "https://ace520.github.io/blog/2020/05/25/vue-router/",
+            "url": "https://ace520.github.io/blog/2020/05/25/vue-router/",
             "title": "Vue Router路由管理器",
             "summary": "Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。",
-            "date_modified": "2020-05-22T00:00:00.000Z"
+            "date_modified": "2020-05-25T00:00:00.000Z"
         }
     ]
 }
