@@ -5,7 +5,7 @@ date: 2020-05-25
 topic: Vue 扩展包
 tags: 
   - Vue
-  - 路由
+  - vue-router
 ---
 
 [Vue Router](https://github.com/vuejs/vue-router) 是 [Vue.js](https://github.com/vuejs/vue) 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。
@@ -63,7 +63,7 @@ const router = new VueRouter({
 
 export default router
 ```
-- src/main.js 
+#### src/main.js 
 ```
 import Vue from 'vue'
 import App from './App.vue'
@@ -75,3 +75,5 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 ```
+
+> 更多内容查看文档[https://router.vuejs.org/zh](https://router.vuejs.org/zh)
