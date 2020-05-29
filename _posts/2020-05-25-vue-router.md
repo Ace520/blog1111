@@ -1,7 +1,7 @@
 ---
 title: Vue Router路由管理器 
 bg: vue.png
-date: 2020-05-22
+date: 2020-05-25
 topic: Vue 扩展包
 tags: 
   - Vue
@@ -22,7 +22,7 @@ tags:
 
 ## 安装
 #### CDN
-``` js
+``` javascript
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 ```
 #### NPM
@@ -31,7 +31,7 @@ npm install vue-router
 ```
 ## 使用
 #### src/router/index.js
-``` js
+``` javascript
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
