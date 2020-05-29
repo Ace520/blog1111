@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ace520.github.io/blog</id>
     <title>ACE-BLOG</title>
-    <updated>2020-05-29T07:59:33.881Z</updated>
+    <updated>2020-05-29T08:01:08.809Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://ace520.github.io/blog"/>
     <link rel="self" href="https://ace520.github.io/blog/feed.atom"/>
@@ -137,10 +137,7 @@ Date
         <link href="https://ace520.github.io/blog/2020/05/25/vuex/">
         </link>
         <updated>2020-05-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[import Vue from 'vue'
-import Vuex from 'vuex'
-import test from './modules/test'
-...
-Vue.use(Vuex)]]></summary>
+        <summary type="html"><![CDATA[yarn add vuex
+`]]></summary>
     </entry>
 </feed>
