@@ -118,7 +118,7 @@
         {
             "id": "https://ace520.github.io/blog/2020/05/25/vuex/",
             "url": "https://ace520.github.io/blog/2020/05/25/vuex/",
-            "title": "Vue Router路由管理器",
+            "title": "Vuex  Vue应用程序开发的状态管理模式",
             "summary": "import Vue from 'vue'\nimport Vuex from 'vuex'\nimport test from './modules/test'\n...\nVue.use(Vuex)",
             "date_modified": "2020-05-25T00:00:00.000Z"
         }

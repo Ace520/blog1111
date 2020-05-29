@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ace520.github.io/blog</id>
     <title>ACE-BLOG</title>
-    <updated>2020-05-29T07:54:37.636Z</updated>
+    <updated>2020-05-29T07:59:33.881Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://ace520.github.io/blog"/>
     <link rel="self" href="https://ace520.github.io/blog/feed.atom"/>
@@ -132,7 +132,7 @@ Date
         <summary type="html"><![CDATA[Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vue Router路由管理器]]></title>
+        <title type="html"><![CDATA[Vuex  Vue应用程序开发的状态管理模式]]></title>
         <id>https://ace520.github.io/blog/2020/05/25/vuex/</id>
         <link href="https://ace520.github.io/blog/2020/05/25/vuex/">
         </link>
