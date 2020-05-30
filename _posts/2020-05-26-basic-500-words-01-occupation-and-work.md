@@ -14,7 +14,7 @@ tags:
 ![](https://oimagea5.ydstatic.com/image?id=-8843930125402453672&product=dict&_w=800&_h=600&originWidth=800&originHeight=600)
 
 <audio id="audio" controls="" preload="none">
-      <source id="mp3" src="/blog/static/base-500-words/01-occupation-and-work.mp3">
+      <source id="mp3" src="/static/basic-500-words/01-occupation-and-work.mp3">
 </audio>
 
 职业&工作
