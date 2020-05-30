@@ -54,18 +54,11 @@ module.exports = {
       },
     }],
     ['vuepress-plugin-smooth-scroll'],
-    ['vuepress-plugin-container', [
-      {
-        type: 'card',
-        before: info => `<div class="masonry-card"><div class="masonry-card-box"><div class="masonry-card-content"><div class="title">${info}</div>`,
-        after: '</div></div></div>',
-      },
-      {
-        type: 'audio',
-        before: info => `<audio id="audio" controls="" preload="none"><source id="mp3" src="${staticUrl + info}`,
-        after: '"></audio>',
-      }
-    ]],
+    ['vuepress-plugin-container', {
+      type: 'audio',
+      before: info => `<audio id="audio" controls="" preload="none"><source id="mp3" src="${info}`,
+      after: '"></audio>',
+    }],
     ['social-share', {
       // networks: ['twitter', 'facebook', 'reddit', 'telegram'],
       // twitterUser: 'ntnyq',

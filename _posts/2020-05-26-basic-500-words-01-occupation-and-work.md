@@ -1,6 +1,6 @@
 ---
 title: 零基础500词 | 情景词汇——职业&工作 
-bg: laravel.jpg
+bg: basic-500-words/1.png
 date: 2020-05-22
 topic: 零基础500词
 tags: 
@@ -10,8 +10,6 @@ tags:
 
 ::: audio basic-500-words/01-occupation-and-work.mp3
 :::
-
-![](https://oimagea5.ydstatic.com/image?id=-8843930125402453672&product=dict&_w=800&_h=600&originWidth=800&originHeight=600)
 
 职业&工作
 -----
