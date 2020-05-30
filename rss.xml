@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Sat, 30 May 2020 02:14:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 May 2020 02:57:20 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -148,7 +148,8 @@ Date
             <link>https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-            <enclosure url="https://oimagea1.ydstatic.com/image?id=-6131844748730354198&amp;product=dict&amp;_w=399&amp;_h=526&amp;originWidth=399&amp;originHeight=526">
+            <description><![CDATA[“-er”与“-or”通常接在动词后(并不绝对)，构成一个新的名词。]]></description>
+            <enclosure url="https://oimagea5.ydstatic.com/image?id=-8843930125402453672&amp;product=dict&amp;_w=800&amp;_h=600&amp;originWidth=800&amp;originHeight=600">
             </enclosure>
         </item>
     </channel>
