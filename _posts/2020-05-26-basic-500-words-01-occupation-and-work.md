@@ -8,17 +8,14 @@ tags:
   - 单词
 ---
 
-=====================
-
-### 轻触点击文章内单词即可听正确发音~
-
-（如图示）  
 
 ![](https://oimagea1.ydstatic.com/image?id=-6131844748730354198&product=dict&_w=399&_h=526&originWidth=399&originHeight=526)
 
 ![](https://oimagea5.ydstatic.com/image?id=-8843930125402453672&product=dict&_w=800&_h=600&originWidth=800&originHeight=600)
 
-00:02/13:30
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="/blog/static/base-500-words/01-occupation-and-work.mp3">
+</audio>
 
 职业&工作
 -----
