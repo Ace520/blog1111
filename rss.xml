@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Sun, 31 May 2020 07:51:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 May 2020 08:45:41 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -148,9 +148,18 @@ Date
             <link>https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/</link>
             <guid>https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/</guid>
             <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[actor
+            <description><![CDATA[比如，action（行动、动作）。]]></description>
+            <enclosure url="https://ace520.github.io/blog/../static/basic-500-words/1-2.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[零基础 | 情景词汇——动物Animals]]></title>
+            <link>https://ace520.github.io/blog/2020/05/22/basic-500-words-02-animal/</link>
+            <guid>https://ace520.github.io/blog/2020/05/22/basic-500-words-02-animal/</guid>
+            <pubDate>Fri, 22 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[horse
 ]]></description>
-            <enclosure url="https://oimagea1.ydstatic.com/image?id=-7526327956828658348&amp;product=dict&amp;_w=800&amp;_h=600&amp;originWidth=800&amp;originHeight=600">
+            <enclosure url="https://ace520.github.io/blog/../static/basic-500-words/2-2.jpg">
             </enclosure>
         </item>
     </channel>
