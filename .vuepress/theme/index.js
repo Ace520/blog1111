@@ -53,9 +53,9 @@ module.exports = {
     }],
     ['vuepress-plugin-smooth-scroll'],
     ['vuepress-plugin-container', {
-      type: 'audio',
+      type: 'aplayer',
       before: info => `<audio id="audio" controls="" preload="none"><source id="mp3" src="${info}`,
-      after: '"></audio>',
+      after: '"></aplayer>',
     }],
     ['social-share', {
       // networks: ['twitter', 'facebook', 'reddit', 'telegram'],

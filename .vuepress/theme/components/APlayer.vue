@@ -1,11 +1,7 @@
 <template>
   <aplayer
-    :music="{
-          title: $page.frontmatter.audio.title ? $page.frontmatter.audio : $frontmatter.title,
-          artist: $page.frontmatter.audio.artist ? $page.frontmatter.audio.artist : ' ',
-          src: $themeConfig.staticUrl + $page.frontmatter.audio.src,
-          pic: $themeConfig.staticUrl + ( $page.frontmatter.audio.pic ?  $page.frontmatter.audio.pic : $page.frontmatter.bg),
-        }"
+    :music="$page.frontmatter.audio[0]"
+    :list="$page.frontmatter.audio.length>0 ? $page.frontmatter.audio : []"
   ></aplayer>
 </template>
 

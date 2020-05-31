@@ -7,10 +7,14 @@ tags:
   - 英语
   - 单词
 audio: 
-  title:
-  artist:
-  src: basic-500-words/02-animal.mp3
-  pic: 
+  - title: 零基础 | 情景词汇——动物Animals
+    artist:  
+    src: basic-500-words/02-animal.mp3
+    pic: basic-500-words/2.gif
+  - title: 零基础 | 情景词汇——动物Animals
+    artist:  
+    src: basic-500-words/02-animal.mp3
+    pic: basic-500-words/2.gif
 ---
 
 animal
