@@ -19,6 +19,9 @@
       <div class="item date">{{resolvePostDate($frontmatter.date)}}</div>
     </div>
     <div class="article">
+      <div v-if="$page.frontmatter.audio">
+        <APlayer />
+      </div>
       <Content />
     </div>
     <Comment />
@@ -28,13 +31,16 @@
 import Vue from "vue";
 import dayjs from "dayjs";
 import { Comment } from "@vuepress/plugin-blog/lib/client/components";
+import APlayer from "@theme/components/APlayer.vue";
 require("dayjs/locale/zh-cn");
 export default {
   components: {
-    Comment
+    Comment,
+    APlayer
   },
   created() {
     dayjs.locale("zh-cn");
+    console.log(this);
   },
   methods: {
     resolvePostDate(date) {

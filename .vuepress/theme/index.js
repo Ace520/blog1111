@@ -1,5 +1,3 @@
-const staticUrl = 'https://raw.githubusercontent.com/Ace520/blog/master/static/';
-
 module.exports = {
   plugins: [
     ['@vuepress/blog', {

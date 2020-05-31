@@ -6,10 +6,12 @@ topic: 零基础500词
 tags: 
   - 英语
   - 单词
+audio: 
+  title:
+  artist:
+  src: basic-500-words/01-occupation-and-work.mp3
+  pic: 
 ---
-
-::: audio basic-500-words/01-occupation-and-work.mp3
-:::
 
 职业&工作
 -----
