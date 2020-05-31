@@ -11,9 +11,9 @@
 
 <script>
 import Vue from "vue";
-import Aplayer from "vue-aplayer";
+
 export default {
-  components: { Aplayer }
+  components: {  }
 };
 </script>
 <style lang="stylus" scoped></style>

@@ -6,9 +6,7 @@
     "build": "vuepress build .",
     "dev": "vuepress dev ."
   },
-  "dependencies": {
-    "vue-aplayer": "^1.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.1",
     "@vuepress/plugin-blog": "^1.9.2",
@@ -21,6 +19,7 @@
     "vuepress-plugin-container": "^2.1.4",
     "vuepress-plugin-medium-zoom": "^1.1.8",
     "vuepress-plugin-smooth-scroll": "0.0.9",
-    "vuepress-plugin-social-share": "^0.2.1"
+    "vuepress-plugin-social-share": "^0.2.1",
+    "vue-aplayer": "^1.6.1"
   }
 }
