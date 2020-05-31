@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ace blog",
   "scripts": {
-    "build": "vuepress build .",
+    "build": "vuepress build . --no-cache",
     "dev": "vuepress dev ."
   },
   "dependencies": {},

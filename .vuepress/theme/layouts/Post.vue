@@ -20,7 +20,7 @@
     </div>
     <div class="article">
       <div v-if="$page.frontmatter.audio">
-        <APlayer />
+        <component v-if="dynamicComponent" :is="dynamicComponent"></component>
       </div>
       <Content />
     </div>
@@ -31,16 +31,24 @@
 import Vue from "vue";
 import dayjs from "dayjs";
 import { Comment } from "@vuepress/plugin-blog/lib/client/components";
-import APlayer from "@theme/components/APlayer.vue";
 require("dayjs/locale/zh-cn");
 export default {
   components: {
-    Comment,
-    APlayer
+    Comment
+  },
+  data() {
+    return {
+      dynamicComponent: null
+    };
   },
   created() {
     dayjs.locale("zh-cn");
     console.log(this);
+  },
+  mounted() {
+    import("@theme/components/APlayer.vue").then(module => {
+      this.dynamicComponent = module.default;
+    });
   },
   methods: {
     resolvePostDate(date) {

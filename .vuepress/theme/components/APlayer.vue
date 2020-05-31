@@ -11,9 +11,10 @@
 
 <script>
 import Vue from "vue";
-
+import Aplayer from "vue-aplayer";
 export default {
-  components: {  }
+  name: "APlayer",
+  components: { Aplayer }
 };
 </script>
 <style lang="stylus" scoped></style>
