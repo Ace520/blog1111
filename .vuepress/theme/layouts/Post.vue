@@ -19,9 +19,6 @@
       <div class="item date">{{resolvePostDate($frontmatter.date)}}</div>
     </div>
     <div class="article">
-      <div v-if="$page.frontmatter.audio">
-        <component v-if="dynamicComponent" :is="dynamicComponent"></component>
-      </div>
       <Content />
     </div>
     <Comment />
@@ -36,19 +33,8 @@ export default {
   components: {
     Comment
   },
-  data() {
-    return {
-      dynamicComponent: null
-    };
-  },
   created() {
     dayjs.locale("zh-cn");
-    console.log(this);
-  },
-  mounted() {
-    import("@theme/components/APlayer.vue").then(module => {
-      this.dynamicComponent = module.default;
-    });
   },
   methods: {
     resolvePostDate(date) {
