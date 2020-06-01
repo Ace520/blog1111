@@ -121,22 +121,6 @@
             "title": "Vuex  Vue应用程序开发的状态管理模式",
             "summary": "yarn add vuex\n`",
             "date_modified": "2020-05-25T00:00:00.000Z"
-        },
-        {
-            "id": "https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/",
-            "url": "https://ace520.github.io/blog/2020/05/22/basic-500-words-01-occupation-and-work/",
-            "title": "零基础500词 | 情景词汇——职业&工作",
-            "summary": "比如，action（行动、动作）。",
-            "image": "https://ace520.github.io/blog/../static/basic-500-words/1-2.jpg",
-            "date_modified": "2020-05-22T00:00:00.000Z"
-        },
-        {
-            "id": "https://ace520.github.io/blog/2020/05/22/basic-500-words-02-animal/",
-            "url": "https://ace520.github.io/blog/2020/05/22/basic-500-words-02-animal/",
-            "title": "零基础 | 情景词汇——动物Animals",
-            "summary": "horse\n",
-            "image": "https://ace520.github.io/blog/../static/basic-500-words/2-2.jpg",
-            "date_modified": "2020-05-22T00:00:00.000Z"
         }
     ]
 }
