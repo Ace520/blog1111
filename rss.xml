@@ -4,7 +4,7 @@
         <title>ACE-BLOG</title>
         <link>https://ace520.github.io/blog</link>
         <description>Ace blog</description>
-        <lastBuildDate>Tue, 02 Jun 2020 00:43:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2020 01:11:04 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://ace520.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -141,6 +141,15 @@ Date
             <guid>https://ace520.github.io/blog/2020/05/25/vuex/</guid>
             <pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[yarn add vuex
+`]]></description>
+        </item>
+        <item>
+            <title><![CDATA[APlayer HTML5音乐播放器]]></title>
+            <link>https://ace520.github.io/blog/2020/05/26/aplayer/</link>
+            <guid>https://ace520.github.io/blog/2020/05/26/aplayer/</guid>
+            <pubDate>Tue, 26 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+
 `]]></description>
         </item>
     </channel>
